@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+p{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+input{
+  width: 25%;
+  height: 21px;
+  display: table;
+
+  outline: none;
+  color: #d90429;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-align p{
+  color: #fca311;
+  margin: 3vw 10vw;
+
+}
+.search{
+  margin:0 10vw;
+  padding-top:3vw;
+}
+
+.app{
+ 
+  background-image: url("https://media.istockphoto.com/id/1311102320/photo/set-of-summer-alcoholic-cocktails-popular-bright-refreshing-colorful-alcohol-drinks-and.jpg?b=1&s=170667a&w=0&k=20&c=1MHUZobU2OhqTXdyXBQa1ntPOdtIu8hxOC_1LO7eiKM=");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+img{
+  width: 50%;
+  height: 300px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
